@@ -8,7 +8,7 @@
   "scripts": {
     "start": "ember server",
     "build": "ember build",
-    "test": "ember try:each && ember fastboot:test"
+    "test": "ember try:each"
   },
   "repository": {
     "type": "git",
@@ -70,10 +70,7 @@
     "ember-wormhole": "^0.4.1"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config",
-    "versionCompatibility": {
-      "ember": ">=1.13.0"
-    }
+    "configPath": "tests/dummy/config"
   },
   "bugs": {
     "url": "https://github.com/kaliber5/ember-bootstrap/issues"
